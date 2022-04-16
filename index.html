@@ -1,106 +1,143 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" src="snappfp.png">
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery-ui.js"></script>
+    <script type="text/javascript" src="pageable.js"></script>
+    <script type="text/javascript" src="front-end.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="front-end.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" src="snappfp.png">
 
-<style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+            overflow: hidden;
+            background-color: #1F51FF;
+        }
+        
+        .topnav a {
+            float: left;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        .topnav a:hover {
+            background-color: #ADD8E6;
+            color: black;
+        }
+        
+        .topnav a.active {
+            background-color: #191970;
+            color: white;
+        }
+        
+        .pfp {
+            padding-top: 50px;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+    </style>
+    <meta name="generator" content="Silex v2.2.7">
+    <style class="silex-inline-styles" type="text/css">
+        .silex-id-1650130902955-0 {
+            min-width: 100%;
+        }
+    </style>
+    <script type="text/javascript" class="silex-json-styles">
+        [{"desktop":{"silex-id-1650130902955-0":{"min-width":"100%","background-image":""}},"mobile":{},"componentData":{}}]
+    </script>
+    <style type="text/css" class="silex-style"></style>
+    <script type="text/javascript" class="silex-script"></script>
+    <title></title>
 
-.topnav {
-  overflow: hidden;
-  background-color: #1F51FF;
-}
-
-.topnav a {
-  float: left;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ADD8E6;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #191970;
-  color: white;
-}
-
- .pfp {
-  padding-top: 50px;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-  .dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-</style>
+    <!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove -->
 </head>
-<body>
 
-<div class="topnav">
-  <a class="active" href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <div class="dropdown">
-    <button class="dropbtn">Profiles 
+<body class="container-element silex-id-1650130902955-0 silex-runtime" data-silex-type="container" data-silex-id="silex-id-1650130902955-0">
+
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <div class="dropdown">
+            <button class="dropbtn">Profiles 
     </button>
-    <div class="dropdown-content">
-      <a href="https://scratch.mit.edu/users/IAMTHEOWL">Scratch</a>
-      <a href="https://forum.snap.berkeley.edu/u/mr_owlssssnap2/">Snap<i>!</i> Forums</a>
-      <a href="https://snap.berkeley.edu/user?user=mr_owlssssnap">Snap<i>!</i></a>
-      <a href="https://github.com/TheOwlCoder">GitHub</a>
-      <a href="profiles.html">More...</a>
+            <div class="dropdown-content">
+                <a href="https://scratch.mit.edu/users/IAMTHEOWL">Scratch</a>
+                <a href="https://forum.snap.berkeley.edu/u/mr_owlssssnap2/">Snap<i>!</i> Forums</a>
+                <a href="https://snap.berkeley.edu/user?user=mr_owlssssnap">Snap<i>!</i></a>
+                <a href="https://github.com/TheOwlCoder">GitHub</a>
+                <a href="profiles.html">More...</a>
+            </div>
+        </div>
     </div>
-  </div> 
-  </div>
-</div>
-</div>
 
-  <center><div class="pfp"><img src="snappfp.png" width="200" hight="200"></div></center>
-  <center><h1> Mr.Owlsss</h1></center>
+
+
+    <center>
+        <div class="pfp"><img src="snappfp.png" width="200" hight="200"></div>
+    </center>
+    <center>
+        <h1> Mr.Owlsss</h1>
+    </center>
+
+
+    <div class="silex-pages">
+        <div data-silex-type="image" data-silex-id="silex-id-hamburger-menu" class="menu-button editable-style silex-id-hamburger-menu image-element page-page-1 paged-element prevent-draggable prevent-resizable"><img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII="
+                class="silex-element-content"></div>
+    </div>
+
+
 </body>
+
 </html>
