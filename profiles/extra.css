@@ -1,4 +1,10 @@
 .dropdown .active {
     background-color: #191970;
     color: white;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    font-family: inherit;
+    margin: 0;
   }
