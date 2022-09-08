@@ -68,3 +68,7 @@ body {
   font-family: inherit;
   margin: 0;
 }
+
+.pfp {
+  padding-top: 50px;
+}
