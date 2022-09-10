@@ -13,3 +13,15 @@ span.c {
 .ctxt {
 color: white;
 }
+
+.container3 {
+    float: left;
+}
+
+span.d {
+  display: block;
+  width: 500;
+  height: 250;
+  border: 1px black;    
+  background-color: #FDB616; 
+}
