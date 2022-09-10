@@ -37,7 +37,7 @@ a:link {
   
   /* mouse over link */
   a:hover {
-    font-weight: bolder;
+    font-weight: 1100;
     color: white;
   }
   
