@@ -5,8 +5,7 @@
 span.c {
   display: block;
   width: 500;
-  height: 330px;
-  border: 1px black;    
+  height: 330px;  
   background-color: #0da2ff; 
 }
 
@@ -21,7 +20,6 @@ color: white;
 span.d {
   display: block;
   width: 500;
-  height: 250;
-  border: 1px black;    
+  height: 250px;    
   background-color: #FDB616; 
 }
