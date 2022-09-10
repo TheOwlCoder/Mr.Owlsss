@@ -25,20 +25,24 @@ span.d {
 }
 
 a:link {
-    color: red;
+    font-weight: bold;
+    color: w;
   }
   
   /* visited link */
   a:visited {
-    color: green;
+    font-weight: bold;
+    color: white;
   }
   
   /* mouse over link */
   a:hover {
-    color: hotpink;
+    font-weight: bolder;
+    color: white;
   }
   
   /* selected link */
   a:active {
-    color: blue;
+    font-weight: lighter;
+    color: gainsboro;
   }
