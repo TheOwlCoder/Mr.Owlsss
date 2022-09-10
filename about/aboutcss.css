@@ -24,7 +24,7 @@ span.d {
   background-color: #FDB616; 
 }
 
-a:link {
+.ctxt:link {
     font-weight: bold;
     color: white;
 }
