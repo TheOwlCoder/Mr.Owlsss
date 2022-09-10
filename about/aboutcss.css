@@ -20,6 +20,10 @@ color: white;
 span.d {
   display: block;
   width: 500;
-  height: 115px;    
+  height: 110px;    
   background-color: #FDB616; 
+}
+
+a:link {
+    font-weight: bold;
 }
