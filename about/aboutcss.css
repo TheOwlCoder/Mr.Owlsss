@@ -5,7 +5,7 @@
 span.c {
   display: block;
   width: 500;
-  height: 2000;
+  height: 500px;
   border: 1px black;    
   background-color: #0da2ff; 
 }
