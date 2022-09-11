@@ -27,18 +27,21 @@ span.d {
 a:link {
     font-weight: bold;
     color: white;
+    outline: black;
   }
   
   /* visited link */
   a:visited {
     font-weight: bold;
     color: white;
+    outline: black;
   }
   
   /* mouse over link */
   a:hover {
     font-weight: 1100;
     color: white;
+    outline: black;
   }
   
   /* selected link */
