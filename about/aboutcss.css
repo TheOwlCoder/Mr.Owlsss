@@ -28,6 +28,7 @@ a:link {
     font-weight: bold;
     color: white;
     outline: black;
+    outline-width: 5px;
   }
   
   /* visited link */
@@ -35,6 +36,7 @@ a:link {
     font-weight: bold;
     color: white;
     outline: black;
+    outline-width: 5px;
   }
   
   /* mouse over link */
@@ -42,6 +44,7 @@ a:link {
     font-weight: 1100;
     color: white;
     outline: black;
+    outline-width: 8px;
   }
   
   /* selected link */
