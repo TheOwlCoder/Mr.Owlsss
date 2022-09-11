@@ -73,25 +73,3 @@ body {
   padding-top: 50px;
 }
 
-a:link {
-  font-weight: bold;
-  color: white;
-}
-
-/* visited link */
-a:visited {
-  font-weight: bold;
-  color: white;
-}
-
-/* mouse over link */
-a:hover {
-  font-weight: 1100;
-  color: white;
-}
-
-/* selected link */
-a:active {
-  font-weight: lighter;
-  color: gainsboro;
-}
