@@ -26,29 +26,19 @@ span.d {
 
 a:link {
     font-weight: bold;
-    color: white;
-    outline: black;
-    outline-width: 5px;
   }
   
   /* visited link */
   a:visited {
     font-weight: bold;
-    color: white;
-    outline: black;
-    outline-width: 5px;
   }
   
   /* mouse over link */
   a:hover {
     font-weight: 1100;
-    color: white;
-    outline: black;
-    outline-width: 8px;
   }
   
   /* selected link */
   a:active {
-    font-weight: lighter;
-    color: gainsboro;
+    font-weight: 800;
   }
