@@ -73,3 +73,21 @@ body {
   padding-top: 50px;
 }
 
+a:link {
+  font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+  font-weight: bold;
+}
+
+/* mouse over link */
+a:hover {
+  font-weight: 1100;
+}
+
+/* selected link */
+a:active {
+  font-weight: 800;
+}
