@@ -2,7 +2,7 @@
     float: left;
   }
 
-div.c {
+div.snaptour {
   display: block;
   width: 500;
   height: 330px;  
@@ -17,11 +17,19 @@ color: white;
     float: left;
 }
 
-div.d {
+div.scratchtour {
   display: block;
   width: 500;
   height: 125px;    
   background-color: #FDB616; 
+  padding-top: 1px;
+}
+
+div.githubtour {
+  display: block;
+  width: 500;
+  height: 125px;    
+  background-color: #0c0258; 
   padding-top: 1px;
 }
 
@@ -43,3 +51,5 @@ a:link {
   a:active {
     font-weight: 800;
   }
+
+  
